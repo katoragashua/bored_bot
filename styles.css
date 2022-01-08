@@ -1,0 +1,53 @@
+body {
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Orbitron, sans-serif;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    height: 100vh;
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slide-in {
+    position: relative;
+    animation-name: glide;
+    animation-duration: 4s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: linear;
+    /* overflow: hidden; */
+}
+
+@keyframes glide {
+   0%  {right: -50%; }
+  100%  {right: 0%; overflow: visible; }
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    background-color: darksalmon;
+    border: none;
+    border: 1px  darkred;
+    cursor: pointer;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#bored-btn {
+    font-size: 2em;
+}
