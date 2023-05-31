@@ -1,1 +1,2 @@
-Bored Bot is a small javascript app that suggest activities to do when you're bored.
+Bored Bot is a small javascript app that suggest activities to do when you're b
+ored.
